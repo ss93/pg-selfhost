@@ -12,6 +12,8 @@ One script to set up everything: PostgreSQL, SSL, firewall, user/database creati
 
 <!-- screenshot: drizzle studio showing a table -->
 
+<img width="1910" height="928" alt="Screenshot 2026-02-18 at 8 33 34 PM" src="https://github.com/user-attachments/assets/17562a59-5d0e-4bc5-a1ce-a564fa2090d5" />
+
 ---
 
 ## What You Get
@@ -41,7 +43,14 @@ One script to set up everything: PostgreSQL, SSL, firewall, user/database creati
 4. Click **Create & Buy Now**
 5. Copy the **IP address** of your new server
 
-<!-- screenshot: hetzner server creation page -->
+<img width="1842" height="773" alt="Screenshot 2026-02-18 at 8 31 14 PM" src="https://github.com/user-attachments/assets/5f6f2fd3-78da-4333-baaf-d766ac847f4a" />
+
+
+### Firewall
+
+Setup the firewall on your instance for TCP port 5432
+
+<img width="1512" height="648" alt="Screenshot 2026-02-18 at 8 30 56 PM" src="https://github.com/user-attachments/assets/839b5a2a-3c62-440b-906e-b59b7c5c1e70" />
 
 ### Don't have an SSH key?
 
@@ -136,6 +145,15 @@ Backups are compressed with gzip and uploaded daily to Cloudflare R2. Old backup
    - **Endpoint URL** — looks like `https://<ACCOUNT_ID>.r2.cloudflarestorage.com`
 
 <!-- screenshot: cloudflare R2 bucket creation -->
+
+<img width="1855" height="860" alt="Screenshot 2026-02-18 at 8 31 56 PM" src="https://github.com/user-attachments/assets/002a6e1d-f8e6-42c0-bdc9-01d67e93b33e" />
+
+<img width="1919" height="838" alt="Screenshot 2026-02-18 at 8 41 49 PM" src="https://github.com/user-attachments/assets/b65336be-78bd-41e3-9f53-023407ad159a" />
+
+<img width="1509" height="836" alt="Screenshot 2026-02-18 at 8 42 42 PM" src="https://github.com/user-attachments/assets/fa4f1db7-fba2-4ca8-9b09-cba82afa72eb" />
+
+<img width="1494" height="840" alt="Screenshot 2026-02-18 at 8 43 10 PM" src="https://github.com/user-attachments/assets/35e381a8-fca3-4307-8f1a-bef287eed9d8" />
+
 
 ### Install Backups on Your Server
 
