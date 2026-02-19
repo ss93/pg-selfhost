@@ -76,7 +76,9 @@ It will ask you for:
 - **DB username** — pick anything (e.g. `myapp`)
 - **DB name** — defaults to `<username>db`
 - **Password** — use something strong
-- **Allowed IPs** — your laptop's IP address (find it at [whatismyip.com](https://whatismyip.com))
+- **Allowed IPs** — your laptop's IP (find it at [whatismyip.com](https://whatismyip.com)), or type `all` to allow connections from any IP
+
+> **Tip:** Use specific IPs if you know where you'll connect from. Use `all` if your IP changes often or multiple people/services need access — just make sure your password is strong.
 
 When it's done, you'll see your connection string:
 
@@ -216,7 +218,7 @@ ssh root@YOUR_SERVER_IP
 bash setup.sh
 ```
 
-Enter the same DB credentials and add the new IP(s).
+Enter the same DB credentials and add the new IP(s), or type `all` to open it up.
 
 ---
 
