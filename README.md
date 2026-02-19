@@ -10,10 +10,6 @@ Automated daily backups to Cloudflare R2.
 
 One script to set up everything: PostgreSQL, SSL, firewall, user/database creation.
 
-<!-- screenshot: drizzle studio showing a table -->
-
-<img width="1910" height="928" alt="Screenshot 2026-02-18 at 8 33 34 PM" src="https://github.com/user-attachments/assets/17562a59-5d0e-4bc5-a1ce-a564fa2090d5" />
-
 ---
 
 ## What You Get
@@ -127,9 +123,11 @@ Open [https://local.drizzle.studio](https://local.drizzle.studio) in your browse
 
 <!-- screenshot: drizzle studio open in browser -->
 
+<img width="1910" height="928" alt="Screenshot 2026-02-18 at 8 33 34 PM" src="https://github.com/user-attachments/assets/17562a59-5d0e-4bc5-a1ce-a564fa2090d5" />
+
 ---
 
-## Step 4: Set Up Automated Backups (Cloudflare R2)
+## Step 4 (Optional but recommended): Set Up Automated Backups (Cloudflare R2)
 
 Backups are compressed with gzip and uploaded daily to Cloudflare R2. Old backups are automatically cleaned up.
 
