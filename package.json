@@ -1,0 +1,14 @@
+{
+  "name": "selfsql",
+  "private": true,
+  "scripts": {
+    "studio": "NODE_TLS_REJECT_UNAUTHORIZED=0 drizzle-kit studio"
+  },
+  "devDependencies": {
+    "drizzle-kit": "latest"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.45.1",
+    "pg": "^8.18.0"
+  }
+}
