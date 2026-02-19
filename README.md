@@ -1,6 +1,9 @@
 # pg-selfhost
 
-Self-host PostgreSQL on a Hetzner VPS for ~$4/month. Browse your data with Drizzle Studio. Automated daily backups to Cloudflare R2.
+Tired of Neon CU-hours and paying over the top for your simple hobby project?
+Self-host PostgreSQL in 10 minutes for ~$4/month!!!
+Browse your data with Drizzle Studio. 
+Automated daily backups to Cloudflare R2.
 
 One script to set up everything: PostgreSQL, SSL, firewall, user/database creation.
 
